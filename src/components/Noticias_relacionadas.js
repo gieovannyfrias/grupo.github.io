@@ -1,10 +1,3 @@
-/**
- * ECOSISTEMA DE NOTICIAS DINÁMICAS PREMIUM
- * Inyección Autónoma Total en el DOM (CSS + HTML + Lógica)
- * SOLUCIÓN DEFINITIVA: Scrollbar forzado y Flex-shrink corregido
- * Grupo Corporativo 2026
- */
-
 // 1. Inyección de Estilos CSS integrados al DOM de forma dinámica
 const styles = `
   :root {
@@ -17,21 +10,6 @@ const styles = `
     --text-muted: #9ca3af;
     --transition-premium: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-
-  * { 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Plus Jakarta Sans', sans-serif; 
-  }
-
-  body {
-    background: var(--bg-gradient);
-    min-height: 100vh;
-    color: var(--light);
-    padding: 60px 20px;
-  }
-
   .related-section {
     width: 100%;
     max-width: 1100px;
@@ -159,30 +137,30 @@ document.head.appendChild(styleSheet);
 const noticiasRelacionadas = [
   {
     id: 1,
-    titulo: "El despliegue de servidores híbridos descentralizados inicia en Europa",
-    descripcion: "Nuestra infrastructure da soporte internacional a las marcas del grupo garantizando redundancia cero a partir de este mes.",
-    categoria: "Nube",
-    fecha: "Hace 2 horas",
-    imagen: "https://unsplash.com",
-    enlace: "#"
+    titulo: "Difamacion ante los medios de comunicación radicionales",
+    descripcion: "Nuestro sitio web es confiable ante nuestra comunidad, usuarios y clientes.",
+    categoria: "Ilegal",
+    fecha: "02 Sep 2026",
+    imagen: "https://lh3.googleusercontent.com/d/1ZKVltJP559XoWmaAtCDgkFKV_uqWAwz8=w1000",
+    enlace: "/No_disponible"
   },
   {
     id: 2,
-    titulo: "Medidas preventivas avanzadas ante los nuevos lineamientos globales RGPD",
+    titulo: "Pagando impuestos ante el SAT",
     descripcion: "Actualizamos de forma transparente los entornos legales para asegurar la total soberanía y protección de datos comerciales.",
     categoria: "Legal",
-    fecha: "Hace 1 día",
-    imagen: "https://unsplash.com",
-    enlace: "#"
+    fecha: "04 Sep 2026",
+    imagen: "https://lh3.googleusercontent.com/d/1ZKVltJP559XoWmaAtCDgkFKV_uqWAwz8=w1000",
+    enlace: "/No_disponible"
   },
   {
     id: 3,
-    titulo: "Workshop de optimización: Variables nativas CSS y rendimiento a gran escala",
-    descripcion: "El equipo de desarrollo Frontend libera la documentación oficial y arquitecturas preestablecidas para agencias aliadas.",
-    categoria: "Desarrollo",
+    titulo: "Celebridades atacan entre ellos por dinero del labado del dinero del gobierno",
+    descripcion: "Existen varios partidos que colaboran, meten publicidad o hacen conferencias por medio del dinero del ciudadano del pueblo con una ganancia de 500.000 hasta 1.000.000 pesos mexicanos aproximadamente.",
+    categoria: "Cultura",
     fecha: "05 Sep 2026",
-    imagen: "https://unsplash.com",
-    enlace: "#"
+    imagen: "https://lh3.googleusercontent.com/d/1ZKVltJP559XoWmaAtCDgkFKV_uqWAwz8=w1000",
+    enlace: "/No_disponible"
   }
 ];
 
