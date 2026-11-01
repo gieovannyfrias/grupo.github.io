@@ -87,6 +87,9 @@ document.addEventListener('DOMContentLoaded', () => {
   font-family: "Bangers", system-ui;
   font-weight: 400;
   font-style: normal;
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     }
     .footer-tagline {
       font-size: 0.9rem;
@@ -185,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <//head>
     <header class="site-header">
       <div class="header-container">
-        <a href="#" class="site-logo">Grupo Gieovanny Frías</a>
+        <a href="#" class="site-logo"><img src="https://grupo.gieovannyfrias.com/Imagenes/Logo_transparente.webp" style="width: 100px; height: 60px;"></a>
         <nav class="main-nav">
           <ul>
             <li><a href="/" class="nav-link active">Inicio</a></li>
@@ -209,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <footer class="footer-avatar">
     <div class="footer-grid">
       <div class="footer-block">
-        <h2 class="footer-logo">Grupo Gieovanny Frías</h2>
+        <h2 class="footer-logo"><img src="https://grupo.gieovannyfrias.com/Imagenes/Logo_transparente.webp" style="width: 100px; height: 60px;">Grupo Gieovanny Frías</h2>
         <p class="footer-tagline">Empresas y organizaciones.</p>
       </div>
       <div class="footer-block">
